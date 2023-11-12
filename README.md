@@ -22,8 +22,8 @@ PodMiniComponent or PodV3Component = Bridge Cozytouch
 
 ---------------------------------------------------------------------------------------
 
-1) Set in the script the IP adress and port of Domoticz.
-2) Set in your username and password of your cozytouch account.
+1) Set in "ma_config.py" the IP adress and port of Domoticz.
+2) Set in "ma_config.py" your username and password of your cozytouch account.
 3) Please ensure in Domoticz/parameters that no authentification is needing in the same network (ex. 192.168.0.*).
 4) You must install this library (sudo pip install requests shelves)
 5) You must insert a new line in your crontab to run the script cyclically like every 1,2 or 5 minutes...<br>
